@@ -1,0 +1,21 @@
+/* You need to create the rest of styles for the layout shown */
+
+.field {
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.label {
+    font-size: 18px;
+    width: 100%
+}
+
+.input {
+    flex-direction: column;
+    width: 95%;
+    padding: 5px;
+}
+
+.date {
+    text-align: left;
+}

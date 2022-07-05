@@ -1,13 +1,50 @@
 {
-    "plumbers": [],
-    "completions": [],
-    "requests": [
-        {
-            "id": 1,
-            "description": "Aut sint voluptatem fugit eius quas molestiae modi.",
-            "address": "34445 Bianka Ports",
-            "budget": 400,
-            "neededBy": "2021-08-27"
-        }
-    ]
+  "plumbers": [
+    {
+      "id": 1,
+      "name": "Maude"
+    },
+    {
+      "id": 2,
+      "name": "Merle"
+    }
+  ],
+  "completions": [],
+  "requests": [
+    {
+      "id": 1,
+      "description": "Aut sint voluptatem fugit eius quas molestiae modi.",
+      "address": "34445 Bianka Ports",
+      "budget": 400,
+      "neededBy": "2021-08-27"
+    },
+    {
+      "description": "Water Heater",
+      "address": "123 please help lane ",
+      "budget": "2300.00",
+      "neededBy": "2022-07-07",
+      "id": 2
+    },
+    {
+      "description": "Faucet leak",
+      "address": "232 leaky faucet lane",
+      "budget": "509.94",
+      "neededBy": "2022-07-19",
+      "id": 6
+    },
+    {
+      "description": "busted pipe under the house",
+      "address": "123 wet ground lane ",
+      "budget": "345.67",
+      "neededBy": "2022-07-26",
+      "id": 7
+    },
+    {
+      "description": "clogged drains",
+      "address": "123 clogged drain lane ",
+      "budget": "1895.00",
+      "neededBy": "2022-07-26",
+      "id": 8
+    }
+  ]
 }
