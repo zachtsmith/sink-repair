@@ -61,3 +61,26 @@ export const fetchPlumbers = () => {
 export const getPlumbers = () => {
     return applicationState.plumbers
 }
+
+
+
+export const saveCompletion = (completedServiceRequest) => {
+    const fetchCompleted = {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(completedServiceRequest)
+    }
+
+
+    return fetch(`${API}/completions`, fetchCompleted)
+    .then(response => response.json())
+    .then(() => {
+        mainContainer.dispatchEvent(new CustomEvent("stateChanged"))
+    })
+}
+
+export const fetchCompletions = () => {
+    return applicationState.completions 
+}
